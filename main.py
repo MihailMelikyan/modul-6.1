@@ -42,7 +42,7 @@ class Plant:
 class Fruit(Plant):
     def __init__(self,name):
         super().__init__(name)
-        self.edible = True
+
 
 
 
@@ -50,7 +50,7 @@ class Fruit(Plant):
 class Flower(Plant):
     def __init__(self,name):
         super().__init__(name)
-        self.edible = False
+
 
 
 if __name__ == '__main__': # почему выводится ссылка а не сам обьект?
